@@ -86,4 +86,14 @@ i {
     display: block;
     margin-top: 10px;
   }
+  #hire {
+  background: linear-gradient(135deg, #f0f8ff, #e6f2ff);
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#hire p {
+  margin-bottom: 15px;
+}
 }
