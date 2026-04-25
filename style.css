@@ -111,6 +111,46 @@ i {
   h1 {
     font-size: 24px;
   }
+  .navbar {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 18px 25px;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  position: sticky;
+top: 20px;
+z-index: 1000;
+}
+  
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #667eea;
+}
 
   img {
     width: 120px;
@@ -132,4 +172,4 @@ i {
 #hire p {
   margin-bottom: 15px;
 }
-}
+
